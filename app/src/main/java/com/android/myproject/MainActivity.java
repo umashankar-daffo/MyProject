@@ -33,16 +33,16 @@ public class MainActivity extends Activity implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.button:
-                Toast.makeText(this,name[0],Toast.LENGTH_LONG);
+                Toast.makeText(this,name[0],Toast.LENGTH_LONG).show();
                 break;
             case R.id.button2:
-                Toast.makeText(this,name[1],Toast.LENGTH_LONG);
+                Toast.makeText(this,name[1],Toast.LENGTH_LONG).show();
                 break;
             case R.id.button3:
-                Toast.makeText(this,name[2],Toast.LENGTH_LONG);
+                Toast.makeText(this,name[2],Toast.LENGTH_LONG).show();
                 break;
             case R.id.button4:
-                Toast.makeText(this,name[3],Toast.LENGTH_LONG);
+                Toast.makeText(this,name[3],Toast.LENGTH_LONG).show();
                 break;
 
 
