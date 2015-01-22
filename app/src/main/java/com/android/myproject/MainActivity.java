@@ -15,7 +15,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("Run dsfdsfg");
+        System.out.println("Run fghfghdhgfhd");
         System.out.println("print");
         Button b = (Button)findViewById(R.id.button);
         b.setOnClickListener(this);
