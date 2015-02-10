@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
-    String name[]  ={"Uma","Neeraj","Asha"};
+    String name[]  ={"Uma","Neeraj","Asha","Rajiv"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
