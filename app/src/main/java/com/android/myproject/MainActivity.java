@@ -2,6 +2,8 @@ package com.android.myproject;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -25,6 +27,19 @@ public class MainActivity extends Activity implements View.OnClickListener{
         b3.setOnClickListener(this);
         Button b4 = (Button)findViewById(R.id.button4);
         b4.setOnClickListener(this);
+
+        Handler myHandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+
+               
+
+
+
+            }
+
+        };
+        myHandler.sendEmptyMessage(0);
 
     }
 
@@ -53,4 +68,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
 
     }
+
+
 }
